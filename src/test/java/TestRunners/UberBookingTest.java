@@ -7,11 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/Features"},
+		features = {"src/test/resources/Features/UberBooking.feature"},
 		glue = {"stepdefinitions"},
-		plugin = {"pretty"},
-		monochrome = true
+		tags = "@All",
+		plugin = {"pretty"}
 		)
-public class AmazonTest {
+public class UberBookingTest {
 
 }
