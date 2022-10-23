@@ -35,4 +35,9 @@ public class SearchSteps {
 	    System.out.println("The Searched product is : "+name);
 	    Assert.assertEquals(product.getProductName(), name);
 	}
+	
+	@Then("Order id is {int} and username is {string}")
+	public void order_id_is_and_username_is(Integer int1, String string) {
+	   
+	}
 }

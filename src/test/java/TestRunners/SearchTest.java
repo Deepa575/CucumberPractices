@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"src/test/resources/Features/Search.feature"},
-		glue = {"stepdefinitions"},
+		glue = {"stepdefinitions","applicationHooks"},
+		tags = "@Smoke or @Regression",
 		plugin = {"pretty"}
 		)
 public class SearchTest {

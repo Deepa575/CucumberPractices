@@ -34,6 +34,7 @@ public class Product {
 		productList.add("Apple MacBook Pro");
 		productList.add("Apple MacBook Air");
 		productList.add("Apple iPhone 12");
+		productList.add("Apple iPhone");
 		return productList;
 	}
 }
